@@ -2,7 +2,6 @@
 module app;
 
 import hunt;
-import application;
 
 void main()
 {
