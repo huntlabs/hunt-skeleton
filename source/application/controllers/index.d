@@ -13,6 +13,6 @@ class IndexController : Controller
 	@action
 	void index()
 	{
-		response.html("Hello hunt :)");
+		response.html("Hello, hunt framework!");
 	}
 }
