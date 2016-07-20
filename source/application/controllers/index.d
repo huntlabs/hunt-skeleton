@@ -10,7 +10,7 @@ class IndexController : BaseController
 	@action
 	void show()
 	{
-		response.html(COOKIE_DOMAIN);
+		response.html("<h1>hello world</h1>");
 	}
 }
 
