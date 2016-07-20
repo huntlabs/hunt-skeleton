@@ -6,8 +6,9 @@ class IndexController : BaseController
 {
     mixin MakeController;
 
-    @action void show()
+    @action void index()
     {
-        response.html("<h1>hello world</h1>");
+        response.html("hello hunt framework!");
     }
 }
+

@@ -2,7 +2,12 @@
 	"name": "hunt-skeleton",
 	"targetType":"executable",
 	"authors": [
-		"Brian Zou","donglei", "dsby","zhudejiang","jiyahan"
+		"zoujiaqing",
+		"donglei",
+		"maozihua",
+		"zhudejiang",
+		"jiyahan",
+		"zhangyongjun"
 	],
 	"description": "An application based on hunt framework.",
 	"copyright": "Copyright © 2016, huntframework.com",
@@ -10,7 +15,8 @@
 	"license": "BSD",	
 	"stringImportPaths": [ "./resources/views" ],
 	"mainSourceFile": "./source/bootstrap.d",
-	"dependencies":{
-	    "hunt":"~>0.2.9"
+	"dependencies": {
+	    "hunt":"~>0.2.11"
 	}
 }
+

@@ -1,11 +1,10 @@
 module bootstrap;
 
-import hunt.application;
-//import application.middleware;
+import hunt;
 
 void main()
 {
     auto app = Application.app();
-    //app.setMiddlewareFactory(new MiddlewareFactory()).enableLocale();
     app.run();
 }
+
