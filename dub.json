@@ -1,0 +1,14 @@
+{
+	"name": "hunt-skeleton",
+	"authors": [
+		"Brian Zou"
+	],
+	"description": "An application based on hunt framework.",
+	"copyright": "Copyright © 2016, huntframework.com",
+	"homepage": "http://www.huntframework.com/",
+	"license": "BSD",	
+	"stringImportPaths": [ "./resources/views" ],
+	"dependencies":{
+	    "hunt":"~>0.2.9"
+	}
+}

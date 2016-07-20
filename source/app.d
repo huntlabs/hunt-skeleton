@@ -1,10 +1,12 @@
+import std.stdio;
 
-module app;
-
-import hunt;
+import hunt.application;
+import application.middleware;
 
 void main()
 {
-	auto app = new Application();
+	auto app = Application.app();
+	app.setMiddlewareFactory(new MiddlewareFactory())
+			.enableLocale();
 	app.run();
 }

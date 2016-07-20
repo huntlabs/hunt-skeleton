@@ -1,18 +1,16 @@
+module application.controllers.index;
 
-import hunt;
+import application.controllers.base;
 
-class IndexController : Controller
+class IndexController : BaseController
 {
 	mixin MakeController;
-	
-	this()
-	{
-		// TODO
-	}
-	
+
+
 	@action
-	void index()
+	void show()
 	{
-		response.html("Hello, hunt framework!");
+		response.html(COOKIE_DOMAIN);
 	}
 }
+

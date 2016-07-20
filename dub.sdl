@@ -1,7 +1,0 @@
-name "myproject"
-description "An application based on hunt framework."
-copyright "Copyright © 2016, huntframework.com"
-authors "Brian Zou"
-homepage "http://www.huntframework.com/"
-license "BSD"
-dependency "hunt" version="~>0.2.9"

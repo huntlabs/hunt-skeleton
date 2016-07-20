@@ -1,0 +1,11 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"collie": "0.7.5",
+		"database": "0.0.2",
+		"entity": "0.0.5",
+		"hunt": {"path":"../hunt"},
+		"libmemcached": "1.0.2",
+		"openssl": "1.1.4+1.0.1g"
+	}
+}
