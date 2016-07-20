@@ -4,13 +4,10 @@ import application.controllers.base;
 
 class IndexController : BaseController
 {
-	mixin MakeController;
+    mixin MakeController;
 
-
-	@action
-	void show()
-	{
-		response.html("<h1>hello world</h1>");
-	}
+    @action void show()
+    {
+        response.html("<h1>hello world</h1>");
+    }
 }
-
