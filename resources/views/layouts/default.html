@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>{{ var.title }}</title>
+	<style>
+		body { background: #EEE; }
+		#layout { width: 1200px; margin: 0 auto; background: #FFF; }
+		#header {}
+		#footer {}
+	</style>
+</head>
+<body>
+	{{ render!"shared/header.html" }}
+	<div class="content">
+		{{ yield }}
+	</div>
+	{{ render!"shared/footer.html" }}
+</body>
+<html>
