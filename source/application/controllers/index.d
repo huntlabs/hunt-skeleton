@@ -1,6 +1,6 @@
-module application.controllers.index;
+module app.controller.index;
 
-import application.controllers.base;
+import app.controller.base;
 
 class IndexController : BaseController
 {
