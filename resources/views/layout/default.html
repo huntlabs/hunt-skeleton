@@ -2,17 +2,22 @@
 <head>
 	<title>{{ var.title }}</title>
 	<style>
-		body { background: #EEE; }
+		body { background: #EEE; margin: 0; color: #333; }
 		#layout { width: 1200px; margin: 0 auto; background: #FFF; }
-		#header {}
-		#footer {}
+		#header { padding: 0 10px; margin: 0; background: #FF0000; color: #FFF; height: 50px; line-height: 50px; }
+		#content { padding: 10px; }
+		#footer { background: #FF0000;  padding: 0 10px; margin: 0; height: 36px; line-height: 36px; color: #FFF; font-size: 12px; }
+		#footer a { color: #FFFF00; }
 	</style>
 </head>
 <body>
+<div id="layout">
 	{{ render!"shared/header.html" }}
-	<div class="content">
+	<div id="content">
 		{{ yield }}
 	</div>
 	{{ render!"shared/footer.html" }}
+</div>
 </body>
 <html>
+

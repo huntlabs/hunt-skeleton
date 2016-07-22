@@ -8,8 +8,7 @@ class IndexController : BaseController
 
     @action void index()
     {
-		view.helloContent = "Hunt is a high-level dlang Web framework that encourages rapid development and clean, pragmatic design. It lets you build high-performance Web applications quickly and easily.";
-		
-		render!"index.html"();
+        view.hello = "Hi";	
+        render!"index.html"();
     }
 }
