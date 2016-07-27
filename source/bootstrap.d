@@ -1,4 +1,3 @@
-module bootstrap;
 
 import hunt;
 
