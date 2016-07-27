@@ -6,7 +6,8 @@ class IndexController : BaseController
 {
     mixin MakeController;
 
-    @action void index()
+    @action
+    void index()
     {
         view.hello = "Hi";	
         render!"index.html"();
