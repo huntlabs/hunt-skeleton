@@ -13,10 +13,10 @@
 	"copyright": "Copyright © 2016, huntframework.com",
 	"homepage": "http://www.huntframework.com/",
 	"license": "BSD",	
-	"stringImportPaths": [ "./resources/views" ],
+	"stringImportPaths": [ "./resources/views","./resources/views/layout","./resources/views/shared" ],
 	"mainSourceFile": "./source/bootstrap.d",
 	"dependencies": {
-	    "hunt":"~>0.3.0"
+	    "hunt":"~>0.3.1"
 	}
 }
 

@@ -7,7 +7,7 @@ class BaseController : Controller
     mixin MakeController;
 	this()
 	{
-		view.setLayout!"layout/default.html"();
+		view.setLayout!"default.html"();
 		view.title = "Hunt framework";
 	}
 }
