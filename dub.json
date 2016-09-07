@@ -5,18 +5,15 @@
 		"zoujiaqing",
 		"donglei",
 		"maozihua",
-		"zhudejiang",
-		"jiyahan",
-		"zhangyongjun"
+		"zhudejiang"
 	],
 	"description": "An application based on hunt framework.",
 	"copyright": "Copyright © 2016, huntframework.com",
 	"homepage": "http://www.huntframework.com/",
-	"license": "BSD",	
+	"license": "BSD",
 	"stringImportPaths": [ "./resources/views","./resources/views/layout","./resources/views/shared" ],
 	"mainSourceFile": "./source/bootstrap.d",
 	"dependencies": {
-	    "hunt":"~>0.3.1"
+	    "hunt":"~>0.3.6"
 	}
 }
-
