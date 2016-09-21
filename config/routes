@@ -1,8 +1,6 @@
 #
 # [GET,POST,PUT...]    path    controller.method
 #
-#{domain}
-#[path]
 
-GET	/	index.index
+*   /   index.index
 
