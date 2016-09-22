@@ -2,5 +2,6 @@
 # [GET,POST,PUT...]    path    controller.method
 #
 
-*   /   index.index
-
+* / index.index
+* /helloworld  index.helloworld
+* /json  index.json
