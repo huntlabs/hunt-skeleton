@@ -8,12 +8,11 @@
 	"authors": [
 		"zoujiaqing",
 		"donglei",
-		"maozihua",
-		"zhudejiang"
+		"maozihua"
 	],
-	"stringImportPaths": [ "./resources/views" ,"./resources/views/layout","./resources/views/shared"],
+	"stringImportPaths": [ "./resources/views", "./resources/views/layout", "./resources/views/shared"],
 	"mainSourceFile": "./source/bootstrap.d",
 	"dependencies": {
-            "hunt" : "~master"
+            "hunt" : "~>0.4.1"
 	}
 }
