@@ -1,19 +1,19 @@
 {
-	"name": "hunt-skeleton",
-	"targetType":"executable",
+	"name": "hunt-skeleton",	
+	"description": "An application based on hunt framework.",
+	"copyright": "Copyright © 2016, huntframework.com",
+	"homepage": "http://www.huntframework.com/",
+	"license": "BSD",
+	"targetType" : "executable",
 	"authors": [
 		"zoujiaqing",
 		"donglei",
 		"maozihua",
 		"zhudejiang"
 	],
-	"description": "An application based on hunt framework.",
-	"copyright": "Copyright © 2016, huntframework.com",
-	"homepage": "http://www.huntframework.com/",
-	"license": "BSD",
-	"stringImportPaths": [ "./resources/views","./resources/views/layout","./resources/views/shared" ],
+	"stringImportPaths": [ "./resources/views" ,"./resources/views/layout","./resources/views/shared"],
 	"mainSourceFile": "./source/bootstrap.d",
 	"dependencies": {
-	    "hunt":"~>0.4.0"
+            "hunt" : "~master"
 	}
 }
