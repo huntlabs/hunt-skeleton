@@ -1,15 +1,14 @@
 module app.controller.index;
 
-import app.controller.base;
+import hunt;
 
-class IndexController : BaseController
+class IndexController : Controller
 {
     mixin MakeController;
 
     @action
     void index()
     {
-        view.hello = "Hi";
-        render!"index.html"();
+		response.html("Hello world!");
     }
 }
