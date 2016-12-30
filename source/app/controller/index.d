@@ -9,6 +9,6 @@ class IndexController : Controller
     @Action()
     void index()
     {
-		response.html("<h1>Hello, the hunt framework is running!</h1>");
+		response.html("<h1>Welcome to use the powerful Hunt framework!</h1>");
     }
 }
