@@ -6,7 +6,7 @@ class IndexController : Controller
 {
     mixin MakeController;
 
-    @action
+    @Action()
     void index()
     {
 		response.html("<h1>Hello, the hunt framework is running!</h1>");
