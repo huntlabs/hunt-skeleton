@@ -12,6 +12,6 @@
 	],
 	"mainSourceFile": "./source/bootstrap.d",
 	"dependencies": {
-            "hunt" : "~>0.5.0"
+            "hunt" : "~>0.5.1"
 	}
 }
