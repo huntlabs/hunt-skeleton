@@ -1,17 +1,17 @@
 {
-	"name": "hunt-skeleton",	
-	"description": "An application based on hunt framework.",
-	"copyright": "Copyright © 2016, huntframework.com",
-	"homepage": "http://www.huntframework.com/",
-	"license": "BSD",
-	"targetType" : "executable",
-	"authors": [
-		"zoujiaqing",
-		"donglei",
-		"maozihua"
-	],
-	"mainSourceFile": "./source/bootstrap.d",
-	"dependencies": {
-            "hunt" : "~>0.6.0.b1"
-	}
+    "name": "hunt-skeleton",    
+    "description": "An application based on hunt framework.",
+    "copyright": "Copyright © 2017, huntframework.com",
+    "homepage": "http://www.huntframework.com/",
+    "license": "BSD",
+    "targetType" : "executable",
+    "authors": [
+        "zoujiaqing",
+        "maozihua",
+        "zhudejiang"
+    ],
+    "mainSourceFile": "./source/bootstrap.d",
+    "dependencies": {
+        "hunt" : "~>0.7.0-beta1"
+    }
 }
