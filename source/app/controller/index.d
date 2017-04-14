@@ -4,11 +4,11 @@ import hunt;
 
 class IndexController : Controller
 {
-	mixin MakeController;
+    mixin MakeController;
 
-	@Action
-	void index()
-	{
-		response.html("<h1>Welcome to use the powerful Hunt framework!</h1>");
-	}
+    @Action
+    void index()
+    {
+        response.html("<h1>Welcome to use the powerful Hunt framework!</h1>");
+    }
 }
