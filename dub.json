@@ -1,5 +1,5 @@
 {
-    "name": "hunt-skeleton",    
+    "name": "hunt-skeleton",
     "description": "An application based on hunt framework.",
     "copyright": "Copyright © 2017, huntframework.com",
     "homepage": "http://www.huntframework.com/",
@@ -12,6 +12,6 @@
     ],
     "mainSourceFile": "./source/bootstrap.d",
     "dependencies": {
-        "hunt" : "~>0.7.0"
+        "hunt" : "~>0.8.3"
     }
 }
