@@ -10,8 +10,7 @@
         "maozihua",
         "zhudejiang"
     ],
-    "mainSourceFile": "./source/bootstrap.d",
     "dependencies": {
-        "hunt" : "~>0.8.5"
+        "hunt" : { "path": "../hunt/"}
     }
 }
