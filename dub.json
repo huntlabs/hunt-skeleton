@@ -1,9 +1,9 @@
 {
     "name": "hunt-skeleton",
     "description": "An application based on hunt framework.",
-    "copyright": "Copyright © 2017, huntframework.com",
+    "copyright": "Copyright © 2017-2018, huntframework.com",
     "homepage": "http://www.huntframework.com/",
-    "license": "BSD",
+	"license": "Apache-2.0",
     "targetType" : "executable",
     "authors": [
         "zoujiaqing",
@@ -11,6 +11,6 @@
         "zhudejiang"
     ],
     "dependencies": {
-        "hunt" : { "path": "../hunt/"}
+        "hunt": "~>1.0.0-beta.2"
     }
 }

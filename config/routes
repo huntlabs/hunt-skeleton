@@ -2,4 +2,4 @@
 # [GET,POST,PUT...]    path    controller.method
 #
 
-* / index.index
+*   /   index.index
