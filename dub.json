@@ -11,6 +11,9 @@
         "zhudejiang"
     ],
     "dependencies": {
-        "hunt": "~>1.0.0-beta.2"
-    }
+        "hunt": "~master"
+    },
+	"subConfigurations": {
+		"kiss" : "debug"
+	}
 }
