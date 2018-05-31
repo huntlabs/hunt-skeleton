@@ -3,17 +3,13 @@
     "description": "An application based on hunt framework.",
     "copyright": "Copyright © 2017-2018, huntframework.com",
     "homepage": "http://www.huntframework.com/",
-	"license": "Apache-2.0",
+    "license": "Apache-2.0",
     "targetType" : "executable",
     "authors": [
         "zoujiaqing",
-        "maozihua",
-        "zhudejiang"
+        "zhangxueping"
     ],
     "dependencies": {
-        "hunt": "~master"
-    },
-	"subConfigurations": {
-		"kiss" : "debug"
-	}
+        "hunt": "~>1.0.0"
+    }
 }
