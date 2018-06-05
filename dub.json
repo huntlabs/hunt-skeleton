@@ -10,6 +10,6 @@
         "zhangxueping"
     ],
     "dependencies": {
-        "hunt": "~>1.0.0"
+        "hunt": "~>1.0.1"
     }
 }
