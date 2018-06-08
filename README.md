@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/huntlabs/hunt-skeleton.svg?branch=master)](https://travis-ci.org/huntlabs/hunt-skeleton)
+
 # hunt-skeleton
 hunt framework project template.
 
