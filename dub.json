@@ -5,6 +5,7 @@
     "homepage": "http://www.huntframework.com/",
     "license": "Apache-2.0",
     "targetType" : "executable",
+    "mainSourceFile": "source/bootstrap.d",
     "authors": [
         "zoujiaqing",
         "zhangxueping"
