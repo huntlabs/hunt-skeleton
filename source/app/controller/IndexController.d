@@ -9,11 +9,11 @@ class IndexController : Controller
     mixin MakeController;
 
     @Action
-    string index()
+    string index(int id)
     {
         auto user = new User;
 
-        user.id = 9999;
+        user.id = id;
         user.name = "Brian";
 
         // set user object to view
