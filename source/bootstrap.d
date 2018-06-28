@@ -3,5 +3,5 @@ import hunt;
 
 void main()
 {
-    app.run();
+    app().run();
 }
