@@ -1,7 +1,7 @@
 {
     "name": "hunt-skeleton",
     "description": "An application based on hunt framework.",
-    "copyright": "Copyright © 2017-2018, huntframework.com",
+    "copyright": "Copyright (c) 2017-2018, huntframework.com",
     "homepage": "http://www.huntframework.com/",
     "license": "Apache-2.0",
     "targetType" : "executable",
@@ -11,6 +11,6 @@
         "zhangxueping"
     ],
     "dependencies": {
-        "hunt": "~>1.1.1"
+        "hunt": "~>1.2.0"
     }
 }

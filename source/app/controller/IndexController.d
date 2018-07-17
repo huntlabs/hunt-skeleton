@@ -2,8 +2,6 @@ module app.controller.IndexController;
 
 import hunt;
 
-import app.model.User;
-
 class IndexController : Controller
 {
     mixin MakeController;
