@@ -11,6 +11,6 @@
         "zhangxueping"
     ],
     "dependencies": {
-        "hunt": "~>1.2.0"
+        "hunt-framework": "~>1.3.0"
     }
 }
