@@ -1,6 +1,6 @@
 module app.controller.IndexController;
 
-import hunt;
+import hunt.framework;
 
 class IndexController : Controller
 {
