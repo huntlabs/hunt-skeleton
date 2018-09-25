@@ -12,9 +12,6 @@
     "dependencies": {
         "hunt-framework": "~>2.0.0-beta.1"
     },
-	"versions": [
-        "HuntDebugMode"
-	],
 	"subConfigurations": {
 		"hunt-framework" : "empty"
     }
