@@ -9,7 +9,6 @@
         "zoujiaqing",
         "zhangxueping"
     ],
-    "mainSourceFile": "bootstrap.d",
     "dependencies": {
         "hunt-framework": "~>2.0.0-beta.2"
     },
