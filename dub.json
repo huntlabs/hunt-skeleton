@@ -10,7 +10,7 @@
         "zhangxueping"
     ],
     "dependencies": {
-        "hunt-framework": "~>2.0.0-beta.2"
+        "hunt-framework": "~>2.0.0-rc.2"
     },
 	"subConfigurations": {
 		"hunt-framework" : "lite"
