@@ -5,12 +5,13 @@
     "homepage": "http://www.huntframework.com/",
     "license": "Apache-2.0",
     "targetType" : "executable",
+    "versions": ["HUNT_DEBUG"],
     "authors": [
         "zoujiaqing",
         "zhangxueping"
     ],
     "dependencies": {
-        "hunt-framework": "~>2.0.0-rc.2"
+        "hunt-framework": "~>2.0.0-rc.4"
     },
 	"subConfigurations": {
 		"hunt-framework" : "lite"

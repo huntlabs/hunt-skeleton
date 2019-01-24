@@ -12,7 +12,7 @@ class IndexController : Controller
     {
         // set huntVersion to view
         view.assign("huntVersion", HUNT_VERSION);
-        info("runing in controller");
+
         return view.render("index");
     }
 }
