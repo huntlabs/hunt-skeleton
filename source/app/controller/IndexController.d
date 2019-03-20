@@ -1,7 +1,6 @@
 module app.controller.IndexController;
 
 import hunt.framework;
-import hunt.logging;
 
 class IndexController : Controller
 {
@@ -10,9 +9,10 @@ class IndexController : Controller
     @Action
     string index()
     {
-        // set huntVersion to view
-        view.assign("huntVersion", HUNT_VERSION);
+        // set hunt-framework version to view
+        view.assign("version", HUNT_VERSION);
 
         return view.render("index");
     }
 }
+
