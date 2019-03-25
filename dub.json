@@ -1,17 +1,13 @@
 {
     "name": "hunt-skeleton",
     "description": "An application based on hunt framework.",
-    "copyright": "Copyright (c) 2017-2018, huntframework.com",
+    "copyright": "Copyright (C) 2015-2019, HuntLabs",
     "homepage": "http://www.huntframework.com/",
     "license": "Apache-2.0",
     "targetType" : "executable",
     "versions": ["HUNT_DEBUG"],
-    "authors": [
-        "zoujiaqing",
-        "zhangxueping"
-    ],
     "dependencies": {
-        "hunt-framework": "~>2.0.0-rc.4"
+        "hunt-framework": "~>2.1.0-rc.1"
     },
 	"subConfigurations": {
 		"hunt-framework" : "lite"
