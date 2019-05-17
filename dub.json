@@ -2,10 +2,10 @@
     "name": "hunt-skeleton",
     "description": "An application based on hunt framework.",
     "copyright": "Copyright (C) 2015-2019, HuntLabs",
-    "homepage": "http://www.huntframework.com/",
+    "homepage": "https://www.huntlabs.net",
     "license": "Apache-2.0",
     "targetType" : "executable",
     "dependencies": {
-        "hunt-framework": "~>2.1.0-rc.2"
+        "hunt-framework": "~>2.1.0"
     }
 }
