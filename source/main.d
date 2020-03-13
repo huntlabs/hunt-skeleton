@@ -4,4 +4,3 @@ void main()
 {
     app().run();
 }
-
