@@ -1,6 +1,6 @@
 import hunt.framework;
 
-void main()
+void main(string[] args)
 {
-    app().run();
+    app().run(args);
 }
