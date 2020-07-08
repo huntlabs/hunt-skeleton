@@ -4,3 +4,5 @@
 
 GET   /   index.index
 
+# static resources
+# GET		/attachments				    staticDir:attachments:true
