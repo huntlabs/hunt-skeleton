@@ -1,5 +1,3 @@
 # name, permissions
-
 superuser    user.add|user.del
-manager      user.add|user.logout
-user         user.profile|user.logout
+guest    user.query
